@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "Backend for Ambulance Finder application",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "express": "^4.18.2",
+    "express": "^4.21.2",
     "socket.io": "^4.7.4"
   },
   "devDependencies": {
